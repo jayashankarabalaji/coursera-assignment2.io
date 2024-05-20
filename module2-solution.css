@@ -1,0 +1,117 @@
+
+/* Styles for tablets and larger devices */
+@media (min-width: 768px) {
+    table {
+            border-collapse: collapse;
+	border: 3px solid black;
+        
+        }
+        th, td {
+		font-size:24px;
+            padding: 2px;
+            
+        }  
+     td {
+      
+      background-color:grey
+    }
+th{
+border: 3px solid black;text-align: center;color: black;width: 35%;
+}
+p{
+text-align: center;font-size:24px;
+}
+.header1 {
+   background-color: pink;
+}
+
+.header2 {
+    background-color: red;
+}
+
+.header3 {
+   background-color: yellow;
+}
+}
+
+/* Styles for desktops and larger devices */
+@media (min-width: 992px) {
+.container {
+            display: flex;
+        }
+        .table-container {
+            margin: 8px;
+        }
+   table {
+            border-collapse: collapse;
+	border: 3px solid black;
+        
+        }
+        th, td {
+		font-size:24px;
+            padding: 2px;
+            
+        }  
+     td {
+      
+      background-color:grey
+    }
+th{
+border: 3px solid black;text-align: center;color: black;width: 35%;
+}
+p{
+text-align: center;font-size:24px;
+}
+.header1 {
+   background-color: pink;
+}
+
+.header2 {
+    background-color: red;
+}
+
+.header3 {
+   background-color: yellow;
+}
+}
+
+/* Styles for mobile phones */
+@media (max-width: 767px) {
+.container {
+            display: float;
+        }
+        .table-container {
+            margin: 8px;
+        }
+    table {
+            border-collapse: collapse;
+	border: 3px solid black;
+        
+        }
+        th, td {
+		font-size:24px;
+            padding: 2px;
+            
+        }  
+     td {
+      
+      background-color:grey
+    }
+th{
+border: 3px solid black;text-align: center;color: black;width: 35%;
+}
+p{
+text-align: center;font-size:24px;
+}
+.header1 {
+   background-color: pink;
+}
+
+.header2 {
+    background-color: red;
+}
+
+.header3 {
+   background-color: yellow;
+}
+}
